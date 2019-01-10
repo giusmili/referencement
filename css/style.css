@@ -1,0 +1,149 @@
+/*CSS de base*/
+html{
+  margin:0;
+  padding:0;
+  background: url(../image/printemps.png) no-repeat center center fixed; 
+  background-size: cover; 
+ }
+body{
+	font:100% 'Open Sans',sans-serif;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+header{
+	width:auto;
+	background: rgba(16%, 50%, 73%,0.9);
+	line-height:102px;
+}
+header h1{
+	margin:0;
+	color:#fff;
+	padding-left:200px;
+	font-weight:lighter;
+	background:url(../image/logo_3d.png)no-repeat 18px -10px scroll;
+	
+}
+header h1:before{
+	
+}
+ h1 small{
+	color:#CDDCE5;
+	font-size:30px;
+	font-weight:bolder;
+ }
+ h1 small+small{
+ color:#CFE5FF;
+ font-size:25px;
+ }
+ h1 .entite{
+	color:#fff;
+	font-size:x-large;
+ }
+ .container{
+	width:950px;
+	margin: auto;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	padding:10px;
+	
+ }
+ ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height: 25px;
+ }
+ section{
+	border-bottom:solid 1px transparent;
+	width:auto;
+	padding:10px 0 10px 0;
+	
+	
+	
+ }
+  .container .content-logos{
+	text-align: center;
+ }
+ /*mise en forme pour les logos*/
+ section .logo{
+	width:230px;
+	height:240px;
+	line-height:260px;
+	border:solid 1px transparent;
+	display:inline-block;
+	margin-right:20px;
+	border-radius:50%;
+	vertical-align:top;
+	text-align:center;
+	border-top-color:#3B8AC0;
+	border-left-color:#f1c40f;
+	border-right-color:#F44336;
+	border-bottom-color:#AF2015;
+	border-right-width:5px;
+ }
+ section .color-android{
+  color:#29DF86;
+ }
+  section .color-user{
+  color:#07527F;
+ }
+ section .color-academy{
+	color:#1F1F1F;
+ }
+ section .logo-taille{
+	font-size:100px;
+ }
+ section .logo:last-child{
+	margin-right:0;
+ }
+ .content-logos{
+	padding-left:20px;
+ }
+ /*fin logo*/
+  h2{
+  background:#07527F;
+  font-weight:lighter;
+  color:#fff;
+  text-transform:capitalize;
+  padding:5px;
+  box-sizing:border-box;
+-moz-box-sizing:border-box;
+border-radius:5px;
+ }
+ h2:after{
+	content:url(../image/arrow.png);
+	vertical-align:middle;
+	opacity:0.8;
+}
+
+/*CSS 3*/
+.link-color:target{
+	background:#3498db;
+}
+h1{
+	text-shadow:1px 1px 2px #000;
+		-webkit-text-shadow:1px 1px 2px #000;
+	box-shadow:1px 1px 2px #000;
+		-webkit-box-shadow:1px 1px 2px #000;
+ }
+ .btn{
+	display:inline-block;
+	color:#fff;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	text-transform:capitalize;
+	background:#07527F;
+	text-decoration:none;
+	padding:5px;
+	width:110px;
+	box-shadow:0 1px #999;
+	transition-duration:0.5s;
+ }
+ .btn:hover{
+	opacity:0.7;
+ }
+
